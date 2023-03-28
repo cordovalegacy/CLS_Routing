@@ -1,10 +1,10 @@
 
 const Nav = () => {
 
-    return(
+    return (
 
         <nav>
-        <h1>Hello Nav</h1>
+            <h2>Nav</h2>
         </nav>
 
     )

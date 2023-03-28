@@ -1,3 +1,40 @@
 .App {
   text-align: center;
+  color: gold;
+}
+
+body{
+  background-color: black;
+}
+
+nav{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background:linear-gradient(120deg, dodgerblue, skyblue) ;
+}
+
+nav a{
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: gold;
+  transition: 250ms;
+  text-decoration: underline;
+}
+
+#cards {
+  width: 20%;
+  border: 2px ridge blue;
+  border-radius: 10px;
+  background: linear-gradient(80deg, whitesmoke, silver);
+  margin: 25px auto;
+  padding: 15px;
+}
+
+#pokemon {
+  width: 80%;
+  margin: -25px 0px;
 }

@@ -1,12 +1,12 @@
 
 const Pokemon = () => {
 
-    return(
+    return (
 
         <>
-        <h1>Pokemon</h1>
+        <h2>useParams</h2>
         </>
-
+        
     )
 
 }
